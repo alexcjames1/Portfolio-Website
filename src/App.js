@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Home } from './routes';
-import { Audentio } from './routes';
-import { Download } from './routes';
+import { Contact } from './routes';
 import './css/style.scss';
 
 function App() {

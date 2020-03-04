@@ -1,1 +1,1 @@
-export { default } from './HouseCupHero';
+export { default } from './Contact';

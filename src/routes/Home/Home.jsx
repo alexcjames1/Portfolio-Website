@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Heading, Header, AppWrapper} from '../../components';
+import {Heading, Header, AppWrapper, Landing} from '../../components';
 import {Helmet} from "react-helmet";
 
 export default class Home extends Component {
@@ -7,7 +7,7 @@ export default class Home extends Component {
         return (
           <AppWrapper>
               <Helmet>
-                <title>Join Together</title>
+                <title>Alex James | Portfolio</title>
               </Helmet>
 
           </AppWrapper>
