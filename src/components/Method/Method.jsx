@@ -6,15 +6,15 @@ import { Section } from '../../components';
 
 import methodLogo from './images/method-logo.png';
 import moodBoard from './images/moodBoard.png';
+import primaryConcepts from './images/primaryConcepts.png';
 
-import volcano from './images/volcano.png';
-import laundry from './images/laundry.png';
-import honey from './images/honey.png';
-import raspberry from './images/raspberry.png';
-import lemon from './images/lemon.png';
-import flower from './images/flower.png';
+import primary from './images/primary.png';
+import packagingBack from './images/packagingBack.png';
 
 import cover from './images/cover.png';
+import spreadOne from './images/spreadOne.png';
+
+import stationery from './images/stationery.png';
 
 export default class Method extends Component {
 
@@ -62,64 +62,42 @@ export default class Method extends Component {
                 </div>
 
                 <div className={style.portfolioItem}>
+                    <img src={primaryConcepts} alt="" />
+                    <h6 className={style.subtitle}>Above - Initial Packaging Concepts</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={moodBoard} alt="" />
+                    <h6 className={style.subtitle}>Above - Style Tile</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={primary} alt="" />
+                    <h6 className={style.subtitle}>Above - Full Packaging Line</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={primary} alt="" />
+                    <h6 className={style.subtitle}>Above - Primary Packaging</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={packagingBack} alt="" />
+                    <h6 className={style.subtitle}>Above - Back of Secondary Packaging</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
                     <img src={cover} alt="" />
                     <h6 className={style.subtitle}>Above - Brochure Cover</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
+                    <img src={spreadOne} alt="" />
+                    <h6 className={style.subtitle}>Above - Brochure Introduction</h6>
                 </div>
-
                 <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Secondary Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Primary Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Bath Salt Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Body Lotion Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Soap Bar Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Face Mask Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Stationery</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Product Tags</h6>
+                    <img src={stationery} alt="" />
+                    <h6 className={style.subtitle}>Above - Stationery System</h6>
                 </div>
 
             </Section>
