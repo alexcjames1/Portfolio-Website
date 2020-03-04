@@ -9,7 +9,7 @@ export default class Home extends Component {
               <Helmet>
                 <title>Alex James | Portfolio</title>
               </Helmet>
-
+              <Landing />
           </AppWrapper>
         );
     }
