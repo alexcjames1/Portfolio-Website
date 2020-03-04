@@ -1,31 +1,22 @@
 @import "../../css/theme.scss";
 
-/////////ROW STYLES/////////
-.legal {
-    align-items:  center;
-    margin-top: -50px;
+
+
+.copyright {
+
+    font-size: 0.75rem;
+    color: #808080;
 }
 
-/////////ICON STYLES/////////
-.icon {
+//////////social media//////////
+.socialMedia li {
     display: inline;
-    padding: 14px;
-    font-size: 20px;
 }
-.icon a {
-    color: $darkBackground;
+.socialMedia a {
+    color: #808080;
+    padding: 0.375rem;
+    display: inline;
 }
-
-/////////COPYRIGHT STYLES/////////
-.copyright a{
-    font-size: 14px;
-    color: $darkBackground;
-}
-.audentio {
-    text-decoration: underline;
-}
-
-/////////SOCIAL MEDIA/////////
-.socialMedia {
+.media {
     text-align: right;
 }
