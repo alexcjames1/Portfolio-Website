@@ -7,16 +7,9 @@ export default class Logo extends Component {
     render() {
         return(
             <div className={style.logo}>
-
                 <div className={style.media}>
-                    <img src={botLogo} alt="" />
+                    <h1 className={style.logo}>alex</h1>
                 </div>
-
-                <div className={style.content}>
-                    <h5>House Cup</h5>
-                    <p>Slack Bot</p>
-                </div>
-                
             </div>
         );
     }
