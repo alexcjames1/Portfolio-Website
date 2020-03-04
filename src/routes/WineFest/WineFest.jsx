@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import {Heading, Header, AppWrapper, Landing} from '../../components';
+import {Heading, Header, AppWrapper, WineFest} from '../../components';
 import {Helmet} from "react-helmet";
 
-export default class WineFest extends Component {
+export default class WineFestPiece extends Component {
     render() {
         return (
           <AppWrapper>
               <Helmet>
                 <title>Alex James | Portfolio</title>
               </Helmet>
-              <Landing />
+              <WineFest />
           </AppWrapper>
         );
     }
