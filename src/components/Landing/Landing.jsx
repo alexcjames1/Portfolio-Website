@@ -6,6 +6,7 @@ import { Section } from '../../components';
 import {Link} from 'react-router-dom';
 
 import cover from './images/cover.png';
+import paint from './images/paint.png';
 
 export default class Landing extends Component {
 
@@ -22,7 +23,7 @@ export default class Landing extends Component {
                     </Col>
                     <Col className={style.example} xs="12" sm="6">
                             <Link to={"/typebook"}>
-                                <img src={cover} alt="#" className={style.image}/>
+                                <img src={paint} alt="#" className={style.image}/>
                             </Link>
                     </Col>
                 </Row>
