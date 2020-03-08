@@ -24,7 +24,7 @@ export default class AppropriationBook extends Component {
         return(
             <Section className={style.section} kind="dark">
                 <Row className={style.projectTitle}>
-                    <Col className={style.content}>
+                    <Col xs="12" sm="6" className={style.content}>
                         <h2 className={style.header}>Appropriation Book</h2>
                         <h6>Student Project</h6>
                         <p className={style.challenge}>
@@ -39,7 +39,7 @@ export default class AppropriationBook extends Component {
                                 This book, in its completion, features 40 appropriated quotes spread across 35 pages.
                         </p>
                     </Col>
-                    <Col>
+                    <Col xs="12" sm="6">
                         <h5 className={style.skills}>Skills</h5>
                         <ul>
                             <li className={style.listItem}>
@@ -69,6 +69,16 @@ export default class AppropriationBook extends Component {
                     </Col>
                     <h6 className={style.subtitle}>Above - Initial Storyboard</h6>
                 </Row>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Brand Background:</span> The Method&trade;  Volcanic Ash Cleanser product line features seven products to beautify all parts of the body. Volcanic ash is infused into this detoxifying body wash,
+                    blended with bergamot oil and white ginger extract. This helps restore and hydrate for smoother, more beautiful-looking skin. For oily skin, dry skin, combination skin,
+                    normal skin.These products are naturally derived, with no artificial ingredients, making it safe for users with allergies.
+                    <br/>
+                    Turn your shower into the kind of escape you need. whether you want pure peace, an energy boost, a deep detox or some simple nourishment, each naturally derived
+                    formula features nutrient-rich ingredients and a scent that’s sure to set the mood. no parabens. no phthalates. no bad vibes.
+
+                </p>
 
                 <div className={style.portfolioItem}>
                     <img src={cover} alt="" />

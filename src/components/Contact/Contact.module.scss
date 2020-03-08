@@ -1,0 +1,56 @@
+@import "../../css/theme.scss";
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 75px;
+    display: flex;
+}
+.header {
+    font-size: $h2;
+    font-weight: $bold;
+    margin-bottom: 10px;
+}
+.challenge {
+    font-size: $h5;
+    font-weight: $normal;
+}
+.solution {
+    font-size: $h5;
+    font-weight: $normal;
+}
+.sectionTitle {
+    font-size: $h3;
+    font-weight: $bold;
+}
+.skills {
+    text-align: right;
+}
+.listItem {
+    font-size: $h5;
+    text-align: right;
+    line-height: 22.4px;
+}
+.projectTitle {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.date {
+    text-align: right;
+}
+.bold {
+    font-weight: 700;
+}
+.subtitle {
+    font-weight: 400;
+    font-size: $h6;
+}
+.portfolioItem {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.description {
+    padding-top: 15px;
+    border-top: 1px solid;
+    font-size: $h5;
+    font-weight: $normal;
+}

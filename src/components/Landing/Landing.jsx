@@ -7,6 +7,8 @@ import {Link} from 'react-router-dom';
 
 import cover from './images/cover.png';
 import paint from './images/paint.png';
+import front from './images/front.png';
+import snowminer from './images/snowminer.png';
 
 export default class Landing extends Component {
 
@@ -30,18 +32,18 @@ export default class Landing extends Component {
                 <Row className={style.container}>
                     <Col className={style.example} xs="12" sm="6">
                             <Link to={"/snowminer"}>
-                                <img src={cover} alt="#" className={style.image}/>
+                                <img src={snowminer} alt="#" className={style.image}/>
                             </Link>
                     </Col>
                     <Col className={style.example} xs="12" sm="6">
                             <Link to={"/raaka"}>
-                                <img src={cover} alt="#" className={style.image}/>
+                                <img src={front} alt="#" className={style.image}/>
                             </Link>
                     </Col>
                 </Row>
                 <Row className={style.container}>
                     <Col className={style.example} xs="12" sm="6">
-                            <Link to={"/pastabook"}>
+                            <Link to={"/winefest"}>
                                 <img src={cover} alt="#" className={style.image}/>
                             </Link>
                     </Col>

@@ -25,7 +25,7 @@ export default class Method extends Component {
         return(
             <Section className={style.section} kind="dark">
                 <Row className={style.projectTitle}>
-                    <Col className={style.content}>
+                    <Col xs="12" sm="6" className={style.content}>
                         <h2 className={style.header}>Method Volcanic Ash Beauty Line</h2>
                         <h6>Student Project</h6>
                         <p className={style.challenge}>
@@ -37,7 +37,7 @@ export default class Method extends Component {
                                 the primary packaging. This created a cohesive thoughout the product line.
                         </p>
                     </Col>
-                    <Col>
+                    <Col xs="12" sm="6">
                         <h5 className={style.skills}>Skills</h5>
                         <ul>
                             <li className={style.listItem}>
@@ -51,6 +51,9 @@ export default class Method extends Component {
                             </li>
                             <li className={style.listItem}>
                                 Typography
+                            </li>
+                            <li className={style.listItem}>
+                                Stationery
                             </li>
                             <li className={style.listItem}>
                                 Layout
