@@ -41,6 +41,10 @@ export default class Contact extends Component {
                         </ul>
                     </Col>
                 </Row>
+                <Row>
+                    <h2>Work Experience</h2>
+
+                </Row>
             </Section>
         );
     }

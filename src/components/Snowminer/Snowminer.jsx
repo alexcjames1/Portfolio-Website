@@ -82,7 +82,7 @@ export default class Snowminer extends Component {
                 </p>
 
                 <div className={style.portfolioItem}>
-                    <img src={right} alt="" />
+                    <img src={left} alt="" />
                     <h6 className={style.subtitle}>Above - Bar Front Packaging</h6>
                 </div>
 

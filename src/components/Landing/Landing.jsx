@@ -9,6 +9,8 @@ import cover from './images/cover.png';
 import paint from './images/paint.png';
 import front from './images/front.png';
 import snowminer from './images/snowminer.png';
+import crimsonValley from './images/crimson-valley.png';
+import ferrentino from './images/ferrentino.png';
 
 export default class Landing extends Component {
 
@@ -24,8 +26,8 @@ export default class Landing extends Component {
                             </Link>
                     </Col>
                     <Col className={style.example} xs="12" sm="6">
-                            <Link to={"/typebook"}>
-                                <img src={paint} alt="#" className={style.image}/>
+                            <Link to={"/FdaLaw"}>
+                                <img src={ferrentino} alt="#" className={style.image}/>
                             </Link>
                     </Col>
                 </Row>
@@ -43,13 +45,13 @@ export default class Landing extends Component {
                 </Row>
                 <Row className={style.container}>
                     <Col className={style.example} xs="12" sm="6">
-                            <Link to={"/winefest"}>
-                                <img src={cover} alt="#" className={style.image}/>
+                            <Link to={"/CrimsonValley"}>
+                                <img src={crimsonValley} alt="#" className={style.image}/>
                             </Link>
                     </Col>
                     <Col className={style.example} xs="12" sm="6">
-                            <Link to={"/typeposter"}>
-                                <img src={cover} alt="#" className={style.image}/>
+                            <Link to={"/typebook"}>
+                                <img src={paint} alt="#" className={style.image}/>
                             </Link>
                     </Col>
                 </Row>

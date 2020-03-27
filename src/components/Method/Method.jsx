@@ -8,6 +8,8 @@ import methodLogo from './images/method-logo.png';
 import moodBoard from './images/moodBoard.png';
 import primaryConcepts from './images/primaryConcepts.png';
 
+import fullLine from './images/full-line.png';
+import bathSalt from './images/bath-salt.png';
 import primary from './images/primary.png';
 import packagingBack from './images/packagingBack.png';
 import dieline from './images/dieline.png';
@@ -95,13 +97,13 @@ export default class Method extends Component {
                 </p>
 
                 <div className={style.portfolioItem}>
-                    <img src={primary} alt="" />
+                    <img src={fullLine} alt="" />
                     <h6 className={style.subtitle}>Above - Full Packaging Line</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
-                    <img src={primary} alt="" />
-                    <h6 className={style.subtitle}>Above - Primary Packaging</h6>
+                    <img src={bathSalt} alt="" />
+                    <h6 className={style.subtitle}>Above - Full Packaging Line</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
@@ -110,8 +112,8 @@ export default class Method extends Component {
                 </div>
 
                 <div className={style.portfolioItem}>
-                    <img src={dieline} alt="" />
-                    <h6 className={style.subtitle}>Above - Full Packaging Line</h6>
+                    <img src={primary} alt="" />
+                    <h6 className={style.subtitle}>Above - Primary Packaging</h6>
                 </div>
 
                 <p className={style.description}>
