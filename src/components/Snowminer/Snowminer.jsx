@@ -4,6 +4,10 @@ import style from './Snowminer.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
+import landing from './images/landing.png';
+import howWorks from './images/how-snowminer-works.png';
+import driver from './images/driver.png';
+
 import front from './images/front.png';
 import right from './images/right.png';
 import close from './images/close.png';
@@ -49,7 +53,7 @@ export default class Snowminer extends Component {
                     </Col>
                 </Row>
                 <div className={style.portfolioItem}>
-                    <img src={front} alt="" />
+                    <img src={landing} alt="" />
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>
                 </div>
                 <p className={style.description}>
@@ -63,12 +67,12 @@ export default class Snowminer extends Component {
                 </p>
 
                 <div className={style.portfolioItem}>
-                    <img src={right} alt="" />
+                    <img src={howWorks} alt="" />
                     <h6 className={style.subtitle}>Above - Consumer Concepts</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
-                    <img src={close} alt="" />
+                    <img src={driver} alt="" />
                     <h6 className={style.subtitle}>Above - Initial Packaging Concepts</h6>
                 </div>
 
