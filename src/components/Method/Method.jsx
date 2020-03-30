@@ -5,7 +5,7 @@ import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
 import methodLogo from './images/method-logo.png';
-import moodBoard from './images/moodBoard.png';
+import conceptBoard from './images/concept-board.png';
 import primaryConcepts from './images/primaryConcepts.png';
 
 import fullLine from './images/full-line.png';
@@ -83,7 +83,7 @@ export default class Method extends Component {
                 </div>
 
                 <div className={style.portfolioItem}>
-                    <img src={moodBoard} alt="" />
+                    <img src={conceptBoard} alt="" />
                     <h6 className={style.subtitle}>Above - Style Tile</h6>
                 </div>
 
