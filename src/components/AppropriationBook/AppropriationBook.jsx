@@ -56,12 +56,12 @@ export default class AppropriationBook extends Component {
                 </Row>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Project Research:</span> The Method&trade;  Volcanic Ash Cleanser product line features seven products to beautify all parts of the body. Volcanic ash is infused into this detoxifying body wash,
-                    blended with bergamot oil and white ginger extract. This helps restore and hydrate for smoother, more beautiful-looking skin. For oily skin, dry skin, combination skin,
-                    normal skin.These products are naturally derived, with no artificial ingredients, making it safe for users with allergies.
-                    <br/>
-                    Turn your shower into the kind of escape you need. whether you want pure peace, an energy boost, a deep detox or some simple nourishment, each naturally derived
-                    formula features nutrient-rich ingredients and a scent that’s sure to set the mood. no parabens. no phthalates. no bad vibes.
+                    <span className={style.bold}>Project Research:</span> To begin this project, we had to research publication design,
+                        typography use, and color schemes. From this research, I discovered a sans serif and serif typeface pairing I was
+                        interested in using, as well as multiple color schemes and multiple examples of layout inspiration. In my intial concepts,
+                        I heavily used geometric shapes to assist my quotes; however, through increased familiarity of type and the quotes I had created,
+                        I realized that there was no need to use these shapes, as the letterforms of the typefaces I chose could easily act in place of the
+                        geometric shapes I initially intended to use.
 
                 </p>
 
@@ -81,12 +81,10 @@ export default class AppropriationBook extends Component {
                 </Row>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Appropriation Book:</span> The Method&trade;  Volcanic Ash Cleanser product line features seven products to beautify all parts of the body. Volcanic ash is infused into this detoxifying body wash,
-                    blended with bergamot oil and white ginger extract. This helps restore and hydrate for smoother, more beautiful-looking skin. For oily skin, dry skin, combination skin,
-                    normal skin.These products are naturally derived, with no artificial ingredients, making it safe for users with allergies.
-                    <br/>
-                    Turn your shower into the kind of escape you need. whether you want pure peace, an energy boost, a deep detox or some simple nourishment, each naturally derived
-                    formula features nutrient-rich ingredients and a scent that’s sure to set the mood. no parabens. no phthalates. no bad vibes.
+                    <span className={style.bold}>Appropriation Book:</span> The final book uses a black and white color scheme, with salmon as
+                        an accent color. Based on the connection between the chosen quotes and the appropriated quote I created, I determined
+                        a visual representation of the meaning behind the quotes. As the reader goes through the book, the spreads go from sans serif,
+                        to serif, before mixing the two in the climax at the end of the book.
 
                 </p>
 

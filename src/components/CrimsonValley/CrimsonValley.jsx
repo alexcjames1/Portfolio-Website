@@ -7,13 +7,21 @@ import { Section } from '../../components';
 import logo from './images/logo.png';
 import conceptBoard from './images/concept-board.png';
 import sketches from './images/sketches.png';
-import greyShirt from './images/grey-shirt.png';
-import whiteShirt from './images/white-shirt.png';
-import greyHat from './images/grey-hat.png';
-import whiteHat from './images/white-hat.png';
+import logoConcepts from './images/logo-concepts.png';
 import stationery from './images/stationery.png';
 import invoice from './images/invoice.png';
+import folder from './images/folder.png';
 import badge from './images/badge.png';
+import greyHat from './images/grey-hat.png';
+import whiteHat from './images/white-hat.png';
+import greyShirt from './images/grey-shirt.png';
+import whiteShirt from './images/white-shirt.png';
+import webHome from './images/web-home.png';
+import webServices from './images/web-services.png';
+import storeFront from './images/store-front.png';
+import outsidePoster from './images/outside-poster.png';
+import truck from './images/truck.png';
+import van from './images/van.png';
 
 
 export default class CrimsonValley extends Component {
@@ -39,9 +47,6 @@ export default class CrimsonValley extends Component {
                         <h5 className={style.skills}>Skills</h5>
                         <ul>
                             <li className={style.listItem}>
-                                Packaging
-                            </li>
-                            <li className={style.listItem}>
                                 Branding
                             </li>
                             <li className={style.listItem}>
@@ -54,6 +59,9 @@ export default class CrimsonValley extends Component {
                                 Stationery
                             </li>
                             <li className={style.listItem}>
+                                Packaging
+                            </li>
+                            <li className={style.listItem}>
                                 Layout
                             </li>
                         </ul>
@@ -64,78 +72,160 @@ export default class CrimsonValley extends Component {
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>
                 </div>
                 <p className={style.description}>
-                    <span className={style.bold}>Brand Background:</span> The Method&trade;  Volcanic Ash Cleanser product line features seven products to beautify all parts of the body. Volcanic ash is infused into this detoxifying body wash,
-                    blended with bergamot oil and white ginger extract. This helps restore and hydrate for smoother, more beautiful-looking skin. For oily skin, dry skin, combination skin,
-                    normal skin.These products are naturally derived, with no artificial ingredients, making it safe for users with allergies.
-                    <br/>
-                    Turn your shower into the kind of escape you need. whether you want pure peace, an energy boost, a deep detox or some simple nourishment, each naturally derived
-                    formula features nutrient-rich ingredients and a scent that’s sure to set the mood. no parabens. no phthalates. no bad vibes.
+                    <span className={style.bold}>Brand Background:</span> Crimson Valley started as a small two man company in 2001
+                        and has grown to have approximately fifty employees, making 6.2 million in 2019. In the beginning, they
+                        only installed plants and they have since grown into a company providing both plantings and hardscape
+                        projects. They have nine crews, each having unique specializations, such as: plantings, paver projects,
+                        decks, and maintenance. Crimson Valley has a reputation for high quality that makes it the best landscape
+                        company in the area. Crimson Valley Landscaping offers comprehensive and quality landscaping products
+                        and services to clients. Our professional landscape staff takes pride in their finished project and in your
+                        satisfaction. We will always teach, learn, innovate, and improve to ensure our customers receive the highest
+                        standards in customer service and workmanship. From our award-winning designs to our responsive customer
+                        service, we see to it that each of our clients’ experience is a memorable one.
 
                 </p>
 
                 <div className={style.portfolioItem}>
                     <img src={conceptBoard} alt="" />
-                    <h6 className={style.subtitle}>Above - Initial Packaging Concepts</h6>
+                    <h6 className={style.subtitle}>Above - Concept Board</h6>
                 </div>
 
-                <div className={style.portfolioItem}>
-                    <img src={sketches} alt="" />
-                    <h6 className={style.subtitle}>Above - Style Tile</h6>
-                </div>
+                <Row>
+                    <Col xs="12" sm="8">
+                        <div className={style.portfolioItem}>
+                            <img src={sketches} alt="" />
+                            <h6 className={style.subtitle}>Above - Logo Sketches</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="4">
+                        <div className={style.portfolioItem}>
+                            <img src={logoConcepts} alt="" />
+                            <h6 className={style.subtitle}>Above - Logo Concepts</h6>
+                        </div>
+                    </Col>
+
+                </Row>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Packaging:</span> To create the packaging for the Method&trade; beauty line, I chose to use abstract magma imagery as it
-                        communicates the idea of a volcano in a much more interesting way than simply using a picture of a volcano. I also chose to use black as an integral part of
-                        the secondary packaging design because it adds drama to the package and creates a high-end feel when compared to other health and beauty products. For the primary
-                        packaging, I chose to use a bright orange color because, as the inside of the secondary packaging is black, when the user opens the box, there is a surprise with the orange
-                        heavily contrasting the black.
-
-                </p>
-
-                <div className={style.portfolioItem}>
-                    <img src={greyShirt} alt="" />
-                    <h6 className={style.subtitle}>Above - Full Packaging Line</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={whiteShirt} alt="" />
-                    <h6 className={style.subtitle}>Above - Full Packaging Line</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={greyHat} alt="" />
-                    <h6 className={style.subtitle}>Above - Back of Secondary Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <img src={whiteHat} alt="" />
-                    <h6 className={style.subtitle}>Above - Primary Packaging</h6>
-                </div>
-
-                <p className={style.description}>
-                    <span className={style.bold}>Stationery:</span> To create the brochure, I chose to use the magma imagery on the cover because it acts as a stimulus image
-                        and will easily grab the attention of the user. In the introduction, I felt it was important to keep it simple and allow the user to ease into the content,
-                        which is why I chose to simply use my color palette as the background to the pages. Although the introduction is used to ease the user into the content, I am
-                        using the bright orange to keep their attention and draw them into the other pages of the brochure. On the main content pages, I chose to keep as similar layout
-                        and let the imagery create the variety, as changes in layout could overwhelm the user with information.
-                        <br/>
-                        In the Method&trade; stationery system, I chose to use the magma imagery as an accent to the content of the system. I chose to make the folder black because I associated
-                        it with the emotions I wanted the user to feel when they were opening the packaging, with the secondary item being black and the internal collateral being the attention grabber.
+                    <span className={style.bold}>Stationery:</span> Ba ba ba
 
                 </p>
 
                 <div className={style.portfolioItem}>
                     <img src={stationery} alt="" />
-                    <h6 className={style.subtitle}>Above - Brochure Cover</h6>
+                    <h6 className={style.subtitle}>Above - Stationery</h6>
+                </div>
+
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={invoice} alt="" />
+                            <h6 className={style.subtitle}>Above - Invoice</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={folder} alt="" />
+                            <h6 className={style.subtitle}>Above - Folder</h6>
+                        </div>
+                    </Col>
+
+                </Row>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Employee Uniforms:</span> Ba ba ba
+
+                </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={badge} alt="" />
+                    <h6 className={style.subtitle}>Above - Employee Badges</h6>
+                </div>
+
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={greyHat} alt="" />
+                            <h6 className={style.subtitle}>Above - Grey Hat</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={whiteHat} alt="" />
+                            <h6 className={style.subtitle}>Above - White Hat</h6>
+                        </div>
+                    </Col>
+
+                </Row>
+
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={greyShirt} alt="" />
+                            <h6 className={style.subtitle}>Above - Grey Shirt</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={whiteShirt} alt="" />
+                            <h6 className={style.subtitle}>Above - White Shirt</h6>
+                        </div>
+                    </Col>
+                </Row>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Website:</span> Ba ba ba
+
+                </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={webHome} alt="" />
+                    <h6 className={style.subtitle}>Above - Website Home Page</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
-                    <img src={invoice} alt="" />
-                    <h6 className={style.subtitle}>Above - Brochure Introduction</h6>
+                    <img src={webServices} alt="" />
+                    <h6 className={style.subtitle}>Above - Website Services Page</h6>
                 </div>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Exterior Signage:</span> Ba ba ba
+
+                </p>
+
                 <div className={style.portfolioItem}>
-                    <img src={badge} alt="" />
-                    <h6 className={style.subtitle}>Above - Stationery System</h6>
+                    <img src={storeFront} alt="" />
+                    <h6 className={style.subtitle}>Above - Storefront</h6>
+                </div>
+
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={outsidePoster} alt="" />
+                            <h6 className={style.subtitle}>Above - Poster Advertisement</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={outsidePoster} alt="" />
+                            <h6 className={style.subtitle}>Above - Billboard</h6>
+                        </div>
+                    </Col>
+                </Row>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Vehicles:</span> Ba ba ba
+
+                </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={truck} alt="" />
+                    <h6 className={style.subtitle}>Above - Truck</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={van} alt="" />
+                    <h6 className={style.subtitle}>Above - Van</h6>
                 </div>
 
             </Section>

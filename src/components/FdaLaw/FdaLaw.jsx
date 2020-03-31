@@ -7,7 +7,8 @@ import { Section } from '../../components';
 import logo from './images/logo.png';
 import styleTile from './images/style-tile.png';
 import sketches from './images/sketches.jpg';
-import otherLogos from './images/other-logos.png';
+import values from './images/values.png';
+import logoConcepts from './images/logo-concepts.png';
 
 export default class FdaLaw extends Component {
 
@@ -21,26 +22,29 @@ export default class FdaLaw extends Component {
                         <h2 className={style.header}>Ferrentino, Donis, and Associates Rebrand</h2>
                         <h6>Student Project</h6>
                         <p className={style.challenge}>
-                            <span className={style.bold}>Challenge:</span> To create a successful redesign of the Raaka logo and packaging.
+                            <span className={style.bold}>Challenge:</span> Ferrentino, Donis and Associates required new logo and overall cohesion of
+                                their brand to attract more clients as their brand at the time was dated and common, not allowing them to stand out against other firms.
                         </p>
                         <p className={style.solution}>
-                            <span className={style.bold}>Solution:</span> I illustrated an abstract leaf pattern and chose to use this
-                                as the primary imagery of the bar because Raaka is known to be extremely transparent about it's
-                                origins and natural ingredients. I then chose to adjust the hierarchy of product information, making
-                                the bar flavor the most important piece of the front packaging.
+                            <span className={style.bold}>Solution:</span> We created a logo for the firm, as well as a website, stationery system, a stamp, and a brand standards manual,
+                                meant to guide the firm in future use of our designs.
+
+                                <br/>
+                                <br/>
+                                This project was completed by myself, Nikola Jelinkova, Wesley Enriquez, and Sarah Faust.
                         </p>
                     </Col>
                     <Col>
                         <h5 className={style.skills}>Skills</h5>
                         <ul>
                             <li className={style.listItem}>
-                                Packaging
-                            </li>
-                            <li className={style.listItem}>
                                 Branding
                             </li>
                             <li className={style.listItem}>
                                 Stationery
+                            </li>
+                            <li className={style.listItem}>
+                                Website
                             </li>
                             <li className={style.listItem}>
                                 Logo Design
@@ -59,69 +63,46 @@ export default class FdaLaw extends Component {
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>
                 </div>
                 <p className={style.description}>
-                    <span className={style.bold}>Brand Background:</span> The Method&trade;  Volcanic Ash Cleanser product line features seven products to beautify all parts of the body. Volcanic ash is infused into this detoxifying body wash,
-                    blended with bergamot oil and white ginger extract. This helps restore and hydrate for smoother, more beautiful-looking skin. For oily skin, dry skin, combination skin,
-                    normal skin.These products are naturally derived, with no artificial ingredients, making it safe for users with allergies.
-                    <br/>
-                    Turn your shower into the kind of escape you need. whether you want pure peace, an energy boost, a deep detox or some simple nourishment, each naturally derived
-                    formula features nutrient-rich ingredients and a scent that’s sure to set the mood. no parabens. no phthalates. no bad vibes.
+                    <span className={style.bold}>Brand Background:</span> Ferrentino, Donis & Associates, LLC are top attorneys dedicated
+                        to helping you with real estate law, personal injury, traffic or DUI defense, family law, and more. They work hard
+                        to provide smart, sensible legal solutions, tailored to your individual case, and are driven to produce the best
+                        results. They pride themselves in providing all clients with cost effective high quality legal representation while
+                        forever maintaining a mindful eye for all detail - big or small.
 
                 </p>
 
                 <div className={style.portfolioItem}>
+                    <img src={styleTile} alt="" />
                     <h6 className={style.subtitle}>Above - Consumer Concepts</h6>
                 </div>
 
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Initial Packaging Concepts</h6>
-                </div>
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={sketches} alt="" />
+                            <h6 className={style.subtitle}>Above - Logo Sketches</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={values} alt="" />
+                            <h6 className={style.subtitle}>Above - Brand Values</h6>
+                        </div>
+                    </Col>
+                </Row>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Packaging:</span> To create the packaging for the Method&trade; beauty line, I chose to use abstract magma imagery as it
-                        communicates the idea of a volcano in a much more interesting way than simply using a picture of a volcano. I also chose to use black as an integral part of
-                        the secondary packaging design because it adds drama to the package and creates a high-end feel when compared to other health and beauty products. For the primary
-                        packaging, I chose to use a bright orange color because, as the inside of the secondary packaging is black, when the user opens the box, there is a surprise with the orange
-                        heavily contrasting the black.
+                    <span className={style.bold}>Logo Concept:</span> In the many different concepts we chose to explore, our main themes were power and
+                        justice. These concepts can directly tie back to the idea of a law firm, as well as the values our client chose for his firm. power
+                        and justice are seen in thick, bold line weights we use in our pictorial logo and our logo typography, as well as in the meaning behind
+                        our more abstracted logos. The logo chosen by our client is meant to symbolize strength and stability, with the lower blocks being the
+                        attorneys and the higher, angled block being the client, supported by the attorneys through legal guidance.
 
                 </p>
 
                 <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Bar Front Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Bar Back Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Close Up of Bar Back</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Front and Back Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Internal Packaging</h6>
-                </div>
-
-                <p className={style.description}>
-                    <span className={style.bold}>Stationery:</span> To create the brochure, I chose to use the magma imagery on the cover because it acts as a stimulus image
-                        and will easily grab the attention of the user. In the introduction, I felt it was important to keep it simple and allow the user to ease into the content,
-                        which is why I chose to simply use my color palette as the background to the pages. Although the introduction is used to ease the user into the content, I am
-                        using the bright orange to keep their attention and draw them into the other pages of the brochure. On the main content pages, I chose to keep as similar layout
-                        and let the imagery create the variety, as changes in layout could overwhelm the user with information.
-                        <br/>
-                        In the Method&trade; stationery system, I chose to use the magma imagery as an accent to the content of the system. I chose to make the folder black because I associated
-                        it with the emotions I wanted the user to feel when they were opening the packaging, with the secondary item being black and the internal collateral being the attention grabber.
-
-                </p>
-
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Business Cards</h6>
-                </div>
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Stationery System</h6>
+                    <img src={logoConcepts} alt="" />
+                    <h6 className={style.subtitle}>Above - Alternate Logo Concepts</h6>
                 </div>
 
             </Section>
