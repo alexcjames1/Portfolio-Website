@@ -7,7 +7,7 @@ export default class Home extends Component {
         return (
           <AppWrapper>
               <Helmet>
-                <title>Join Together</title>
+                <title>alexcjames.com</title>
               </Helmet>
               <Contact />
           </AppWrapper>

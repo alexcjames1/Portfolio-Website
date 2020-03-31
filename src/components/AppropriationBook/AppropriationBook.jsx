@@ -72,12 +72,17 @@ export default class AppropriationBook extends Component {
 
                 <Row>
                     <Col xs="12" sm="6">
-                        <img src={thumbFront} alt="" />
+                        <div className={style.portfolioItem}>
+                            <img src={thumbFront} alt="" />
+                            <h6 className={style.subtitle}>Above - Thumbnails</h6>
+                        </div>
                     </Col>
                     <Col xs="12" sm="6">
-                        <img src={thumbBack} alt="" />
+                        <div className={style.portfolioItem}>
+                            <img src={thumbBack} alt="" />
+                            <h6 className={style.subtitle}>Above - Thumbnails</h6>
+                        </div>
                     </Col>
-                    <h6 className={style.subtitle}>Above - Initial Storyboard</h6>
                 </Row>
 
                 <p className={style.description}>

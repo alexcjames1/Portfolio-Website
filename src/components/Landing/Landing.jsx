@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 import cover from './images/cover.png';
 import paint from './images/paint.png';
 import front from './images/front.png';
-import snowminer from './images/snowminer.png';
+import snowminer from './images/snowminer-laptop.png';
 import crimsonValley from './images/crimson-valley.png';
 import ferrentino from './images/ferrentino.png';
 

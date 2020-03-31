@@ -35,7 +35,9 @@ export default class CrimsonValley extends Component {
                         <h2 className={style.header}>Crimson Valley Landscaping Branding &amp; Identity</h2>
                         <h6>Student Project</h6>
                         <p className={style.challenge}>
-                            <span className={style.bold}>Challenge:</span> To create a health &amp; beauty line focused on anti-aging products.
+                            <span className={style.bold}>Challenge:</span> To will build an appropriate identity and
+                                brand profile for Crimson Valley Landscaping through research, building a brand
+                                profile, and documentation of their new visual identity.
                         </p>
                         <p className={style.solution}>
                             <span className={style.bold}>Solution:</span> The Method Volcanic Ash line is a seven product package with a product brochure included.
@@ -91,13 +93,13 @@ export default class CrimsonValley extends Component {
                 </div>
 
                 <Row>
-                    <Col xs="12" sm="8">
+                    <Col xs="12" sm="7">
                         <div className={style.portfolioItem}>
                             <img src={sketches} alt="" />
                             <h6 className={style.subtitle}>Above - Logo Sketches</h6>
                         </div>
                     </Col>
-                    <Col xs="12" sm="4">
+                    <Col xs="12" sm="5">
                         <div className={style.portfolioItem}>
                             <img src={logoConcepts} alt="" />
                             <h6 className={style.subtitle}>Above - Logo Concepts</h6>

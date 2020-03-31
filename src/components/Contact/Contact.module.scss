@@ -48,9 +48,56 @@
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.description {
-    padding-top: 15px;
-    border-top: 1px solid;
+.button {
+    display: inline;
+    text-align: center;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+.buttonLink {
+    color: #fff;
+    font-family: $fontFamily;
+    font-weight: 400;
     font-size: $h5;
-    font-weight: $normal;
+}
+.description {
+    font-size: 14px;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+.date {
+    font-weight: 700;
+}
+.jobItem {
+    font-size: $h5;
+}
+.position {
+    font-weight: 700;
+}
+.education {
+    font-size: $h5;
+}
+.jobs {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contact {
+    color: #000;
+    font-family: $fontFamily;
+}
+.contactButton{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.email {
+    text-decoration: underline;
 }

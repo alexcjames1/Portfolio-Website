@@ -7,7 +7,7 @@ export default class WineFestPiece extends Component {
         return (
           <AppWrapper>
               <Helmet>
-                <title>Alex James | Portfolio</title>
+                <title>alexcjames.com</title>
               </Helmet>
               <WineFest />
           </AppWrapper>
