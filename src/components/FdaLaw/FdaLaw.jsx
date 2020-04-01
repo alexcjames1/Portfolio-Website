@@ -19,7 +19,7 @@ export default class FdaLaw extends Component {
             <Section className={style.section} kind="dark">
                 <Row className={style.projectTitle}>
                     <Col className={style.content}>
-                        <h2 className={style.header}>Ferrentino, Donis, and Associates Rebrand</h2>
+                        <h2 className={style.header}>Ferrentino, Donis &amp; Associates Rebrand</h2>
                         <h6>Student Project</h6>
                         <p className={style.challenge}>
                             <span className={style.bold}>Challenge:</span> Ferrentino, Donis and Associates required new logo and overall cohesion of
