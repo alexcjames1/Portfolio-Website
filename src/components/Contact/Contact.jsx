@@ -14,13 +14,13 @@ export default class Contact extends Component {
     render() {
         return(
             <Section className={style.section} kind="dark">
-                <Row>
+                <Row className={style.aboutMe}>
                     <Col xs="12" sm="4">
-                        <h2>Designer</h2>
+                        <h2 className={style.heading}>Designer</h2>
                         <img src={headshot} alt="" />
                     </Col>
                     <Col xs="12" sm="4">
-                        <h2>Milwaukee, WI</h2>
+                        <h2 className={style.heading}>Chicago, IL &amp; Milwaukee, WI</h2>
                         <p className={style.description}>
                              Hi, my name is Alex James and I'm a Graphic Designer and Developer living in Milwaukee, Wisconsin and attending Columbia College
                              Chicago. I will graudate with a degree in Graphic Design with a Web Concentration in May 2020. I have experience designing for
@@ -29,11 +29,11 @@ export default class Contact extends Component {
                              work together!
                         </p>
                         <div className={style.buttonContainer}>
-                            <div className={style.button}>
-                                <a className={style.buttonLink} href="https://www.google.com/" target="_blank">Email</a>
+                            <div className={classy(style.email, style.button)}>
+                                <a className={style.buttonLink} href="mailto:alexcjames1@gmail.com" target="_blank">Email</a>
                             </div>
-                            <div className={style.button}>
-                                <a className={style.buttonLink} href="https://www.google.com/" target="_blank">Resume</a>
+                            <div className={classy(style.resume, style.button)}>
+                                <a className={style.buttonLink} href="images/ajames-resume2.pdf" target="_blank">Resume</a>
                             </div>
                         </div>
                     </Col>
