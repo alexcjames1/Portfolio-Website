@@ -55,6 +55,11 @@ export default class AppropriationBook extends Component {
                     </Col>
                 </Row>
 
+                <div className={style.portfolioItem}>
+                    <img src={cover} alt="" />
+                    <h6 className={style.subtitle}>Above - Book Cover</h6>
+                </div>
+
                 <p className={style.description}>
                     <span className={style.bold}>Project Research:</span> To begin this project, we had to research publication design,
                         typography use, and color schemes. From this research, I discovered a sans serif and serif typeface pairing I was
@@ -92,11 +97,6 @@ export default class AppropriationBook extends Component {
                         to serif, before mixing the two in the climax at the end of the book.
 
                 </p>
-
-                <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Book Cover</h6>
-                </div>
 
                 <div className={style.portfolioItem}>
                     <img src={blocks} alt="" />

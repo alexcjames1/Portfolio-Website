@@ -28,6 +28,17 @@
     border-style: none;
 }
 
+@mixin skillsSection {
+    font-size: $h5;
+    text-align: right;
+    line-height: 22.4px;
+}
+@mixin skillsSectionMobile {
+    font-size: $h5;
+    text-align: left;
+    line-height: 22.4px;
+}
+
 /////////BACKGROUND COLORS/////////
 $primaryColor: #D5C0A3;
 $darkSection: #87b7bf;
@@ -75,14 +86,6 @@ $borderColor: #d9d7d7;
 /////////BUTTON UNDERLINE/////////
 $underlineHover: underline;
 
-/////////MODAL COLOR STYLES/////////
-$helpColor: #F7BC14;
-
-//get-icon-color
-$selfColor: #84C5B4;
-
-//contribute-icon-color
-$contributeColor: #337B9C;
-
-//share-icon-color
-$shareColor: #374365;
+/////////SKILLS HEADING/////////
+$skillsAlignment: right;
+$skillsAlignmentMobile: left;

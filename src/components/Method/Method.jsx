@@ -30,10 +30,10 @@ export default class Method extends Component {
                     <Col xs="12" sm="6" className={style.content}>
                         <h2 className={style.header}>Method Volcanic Ash Beauty Line</h2>
                         <h6>Student Project</h6>
-                        <p className={style.challenge}>
+                        <p className={style.rationale}>
                             <span className={style.bold}>Challenge:</span> To create a health &amp; beauty line focused on anti-aging products.
                         </p>
-                        <p className={style.solution}>
+                        <p className={style.rationale}>
                             <span className={style.bold}>Solution:</span> The Method Volcanic Ash line is a seven product package with a product brochure included.
                                 To create this line, I used bright imagery of magma for the secondary packaging and an eye-catching orange color for the primary packaging. This created a cohesive throughout the product line
                                 the primary packaging. This created a cohesive thoughout the product line.

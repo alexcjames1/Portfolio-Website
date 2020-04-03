@@ -33,7 +33,7 @@ export default class Contact extends Component {
                                 <a className={style.buttonLink} href="mailto:alexcjames1@gmail.com" target="_blank">Email</a>
                             </div>
                             <div className={classy(style.resume, style.button)}>
-                                <a className={style.buttonLink} href="images/ajames-resume2.pdf" target="_blank">Resume</a>
+                                <a className={style.buttonLink} href="https://drive.google.com/open?id=1hWR6IPQZD7Rcl1oYfGDHJ5a2eNIF-W2V" target="_blank">Resume</a>
                             </div>
                         </div>
                     </Col>
