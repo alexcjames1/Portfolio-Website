@@ -13,7 +13,7 @@ export { default as FdaLaw } from './FdaLaw';
 export { default as Landing } from './Landing';
 export { default as Method } from './Method';
 export { default as Raaka } from './Raaka';
-export { default as Snowminer } from './Snowminer';
+export { default as SnowminerWebsite } from './Snowminer-website';
 export { default as WineFest } from './WineFest';
 
 export { default as Footer } from './Footer';

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import classy from '../../utils/classy';
-import style from './Snowminer.module.scss';
+import style from './Snowminer-website.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
@@ -68,17 +68,17 @@ export default class Snowminer extends Component {
 
                 <div className={style.portfolioItem}>
                     <img src={howWorks} alt="" />
-                    <h6 className={style.subtitle}>Above - Consumer Concepts</h6>
+                    <h6 className={style.subtitle}>Above - How Snowminer Works</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
                     <img src={driver} alt="" />
-                    <h6 className={style.subtitle}>Above - Initial Packaging Concepts</h6>
+                    <h6 className={style.subtitle}>Above - Driver Landing Page</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
                     <img src={mobile} alt="" />
-                    <h6 className={style.subtitle}>Above - Bar Back Packaging</h6>
+                    <h6 className={style.subtitle}>Above - Mobile Website View</h6>
                 </div>
 
                 <div className={style.button}>
