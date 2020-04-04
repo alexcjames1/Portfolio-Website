@@ -18,3 +18,38 @@
     padding-bottom: 75px;
     display: flex;
 }
+.circle {
+
+}
+.title {
+    color: #fff;
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
+.contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background: #EF3F25;
+}
+.contactContainer:hover {
+    animation: circle 1s;
+}
+@keyframes circle {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
