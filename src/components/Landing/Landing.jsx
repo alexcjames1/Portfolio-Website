@@ -58,7 +58,7 @@ export default class Landing extends Component {
                 </Row>
                 <Row className={style.container}>
                     <Col className={style.example} xs="12" sm="6">
-                            <Link to={"/CrimsonValley"}>
+                            <Link to={"/WineFest"}>
                                 <img src={wine} alt="#" className={style.image}/>
                             </Link>
                     </Col>

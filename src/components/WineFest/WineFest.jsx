@@ -5,10 +5,18 @@ import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
 import logo from './images/logo.png';
-import logoConcepts from './images/logo-options.png';
+import logoOptions from './images/logo-options.png';
 import styleTile from './images/style-tile.png';
+import stationery from './images/stationery.png';
+import bagFront from './images/bag-front.png';
+import bags from './images/bags.png';
+import buttons from './images/buttons.png';
+import shirtGreen from './images/shirt-green.png';
+import shirtGrey from './images/shirt-grey.png';
+import shirtWhite from './images/shirt-white.png';
+import wineGlass from './images/wine-glass.png';
 
-export default class Raaka extends Component {
+export default class WineFest extends Component {
 
 
 
@@ -17,23 +25,22 @@ export default class Raaka extends Component {
             <Section className={style.section} kind="dark">
                 <Row className={style.projectTitle}>
                     <Col className={style.content}>
-                        <h2 className={style.header}>Raaka Chocolate Alternate Design</h2>
+                        <h2 className={style.header}>Taste Wine Fest Branding & Identity</h2>
                         <h6>Student Project</h6>
                         <p className={style.challenge}>
-                            <span className={style.bold}>Challenge:</span> To create a successful redesign of the Raaka logo and packaging.
+                            <span className={style.bold}>Challenge:</span> To create a website for Taste Wine Fest, along with a identity for the brand.
                         </p>
                         <p className={style.solution}>
-                            <span className={style.bold}>Solution:</span> I illustrated an abstract leaf pattern and chose to use this
-                                as the primary imagery of the bar because Raaka is known to be extremely transparent about it's
-                                origins and natural ingredients. I then chose to adjust the hierarchy of product information, making
-                                the bar flavor the most important piece of the front packaging.
+                            <span className={style.bold}>Solution:</span> I created an identity that incorporated earthy tones to connect back to the vineyard
+                                from where the wine originated. I also chose to use a line drawing of a wine bottle as a pattern and illustrative accent piece
+                                to create a friendly feeling for the brand.
                         </p>
                     </Col>
                     <Col>
                         <h5 className={style.skills}>Skills</h5>
                         <ul>
                             <li className={style.listItem}>
-                                Packaging
+                                Web Design
                             </li>
                             <li className={style.listItem}>
                                 Branding
@@ -68,61 +75,75 @@ export default class Raaka extends Component {
                 </p>
 
                 <div className={style.portfolioItem}>
-                    <img src={logoConcepts} alt="" />
-                    <h6 className={style.subtitle}>Above - Consumer Concepts</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
                     <img src={styleTile} alt="" />
-                    <h6 className={style.subtitle}>Above - Initial Packaging Concepts</h6>
+                    <h6 className={style.subtitle}>Above - Concept Board</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={logoOptions} alt="" />
+                    <h6 className={style.subtitle}>Above - Other Logo Concepts</h6>
                 </div>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Packaging:</span> To create the packaging for the Method&trade; beauty line, I chose to use abstract magma imagery as it
-                        communicates the idea of a volcano in a much more interesting way than simply using a picture of a volcano. I also chose to use black as an integral part of
-                        the secondary packaging design because it adds drama to the package and creates a high-end feel when compared to other health and beauty products. For the primary
-                        packaging, I chose to use a bright orange color because, as the inside of the secondary packaging is black, when the user opens the box, there is a surprise with the orange
-                        heavily contrasting the black.
-
+                    <span className={style.bold}>Stationery:</span> ba ba ba ba.
                 </p>
 
                 <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Bar Front Packaging</h6>
+                    <img src={stationery} alt="" />
+                    <h6 className={style.subtitle}>Above - Stationery</h6>
                 </div>
 
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Bar Back Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Close Up of Bar Back</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Front and Back Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Internal Packaging</h6>
-                </div>
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={bagFront} alt="" />
+                            <h6 className={style.subtitle}>Above - Front of Bag</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={bags} alt="" />
+                            <h6 className={style.subtitle}>Above - Bag Color Options</h6>
+                        </div>
+                    </Col>
+                </Row>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Stationery:</span> To create the brochure, I chose to use the magma imagery on the cover because it acts as a stimulus image
-                        and will easily grab the attention of the user. In the introduction, I felt it was important to keep it simple and allow the user to ease into the content,
-                        which is why I chose to simply use my color palette as the background to the pages. Although the introduction is used to ease the user into the content, I am
-                        using the bright orange to keep their attention and draw them into the other pages of the brochure. On the main content pages, I chose to keep as similar layout
-                        and let the imagery create the variety, as changes in layout could overwhelm the user with information.
-                        <br/>
-                        In the Method&trade; stationery system, I chose to use the magma imagery as an accent to the content of the system. I chose to make the folder black because I associated
-                        it with the emotions I wanted the user to feel when they were opening the packaging, with the secondary item being black and the internal collateral being the attention grabber.
-
+                    <span className={style.bold}>Apparel:</span> ba ba ba ba.
                 </p>
 
                 <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Business Cards</h6>
+                    <img src={buttons} alt="" />
+                    <h6 className={style.subtitle}>Above - Buttons</h6>
                 </div>
+                <Row>
+                    <Col xs="12" sm="4">
+                        <div className={style.portfolioItem}>
+                            <img src={shirtGreen} alt="" />
+                            <h6 className={style.subtitle}>Above - Green Shirt</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="4">
+                        <div className={style.portfolioItem}>
+                            <img src={shirtWhite} alt="" />
+                            <h6 className={style.subtitle}>Above - White Shirt</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="4">
+                        <div className={style.portfolioItem}>
+                            <img src={shirtGrey} alt="" />
+                            <h6 className={style.subtitle}>Above - Grey Shirt</h6>
+                        </div>
+                    </Col>
+                </Row>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Apparel:</span> ba ba ba ba.
+                </p>
+
                 <div className={style.portfolioItem}>
-                    <h6 className={style.subtitle}>Above - Stationery System</h6>
+                    <img src={wineGlass} alt="" />
+                    <h6 className={style.subtitle}>Above - Wine Glass</h6>
                 </div>
 
             </Section>

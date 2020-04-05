@@ -41,22 +41,34 @@ export default class Contact extends Component {
                         <h5 className={style.skills}>Skills</h5>
                         <ul>
                             <li className={style.listItem}>
-                                Branding
+                                Illustrator
                             </li>
                             <li className={style.listItem}>
-                                Logo Design
+                                InDesign
                             </li>
                             <li className={style.listItem}>
-                                Typography
+                                Photoshop
                             </li>
                             <li className={style.listItem}>
-                                Stationery
+                                Time Management
                             </li>
                             <li className={style.listItem}>
-                                Packaging
+                                React.js and SASS
                             </li>
                             <li className={style.listItem}>
-                                Layout
+                                React.js and SASS
+                            </li>
+                            <li className={style.listItem}>
+                                HTML/CSS
+                            </li>
+                            <li className={style.listItem}>
+                                Mailchimp
+                            </li>
+                            <li className={style.listItem}>
+                                Wordpress
+                            </li>
+                            <li className={style.listItem}>
+                                Microsoft Office
                             </li>
                         </ul>
                     </Col>
