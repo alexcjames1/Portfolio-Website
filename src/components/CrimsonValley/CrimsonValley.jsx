@@ -18,8 +18,10 @@ import greyShirt from './images/grey-shirt.png';
 import whiteShirt from './images/white-shirt.png';
 import webHome from './images/web-home.png';
 import webServices from './images/web-services.png';
+import socialMedia from './images/socialMedia.png';
 import storeFront from './images/store-front.png';
 import outsidePoster from './images/outside-poster.png';
+import billboard from './images/billboard.png';
 import truck from './images/truck.png';
 import van from './images/van.png';
 
@@ -204,6 +206,19 @@ export default class CrimsonValley extends Component {
                 </div>
 
                 <p className={style.description}>
+                    <span className={style.bold}>Social Media:</span> These are
+                        examples of social media posts that Crimson Valley would
+                        make to show their work, welcome a new employee, or promote
+                        events.
+
+                </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={socialMedia} alt="" />
+                    <h6 className={style.subtitle}>Above - Social Media Posts</h6>
+                </div>
+
+                <p className={style.description}>
                     <span className={style.bold}>Exterior Signage:</span> For Crimson Valley exterior signage, I created a design for
                         their storefront, a poster advertisement, and a billboard advertisement. On the storefront, the awning contains the pattern
                         seen on the other collateral items. The door shows the pictorial logo, as well as the store hours. I then put an example of
@@ -227,7 +242,7 @@ export default class CrimsonValley extends Component {
                     </Col>
                     <Col xs="12" sm="6">
                         <div className={style.portfolioItem}>
-                            <img src={outsidePoster} alt="" />
+                            <img src={billboard} alt="" />
                             <h6 className={style.subtitle}>Above - Billboard</h6>
                         </div>
                     </Col>
