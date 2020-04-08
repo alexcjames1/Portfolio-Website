@@ -6,12 +6,7 @@
     display: flex;
 }
 .skills {
-    text-align: $skillsAlignmentMobile;
-}
-@media (min-width: 760px) {
-    .listItem {
-        text-align: $skillsAlignment
-    }
+    text-align: right;
 }
 .listItem {
     @include skillsSectionMobile;

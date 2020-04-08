@@ -85,7 +85,12 @@ export default class WineFest extends Component {
                 </div>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Stationery:</span> ba ba ba ba.
+                    <span className={style.bold}>Print Collateral:</span> The stationery system
+                        and additional print collateral are tied together by using the
+                        pattern as either an accent or a background. On the bags, a wine
+                        bottle line drawing was used as an accent piece on the front and
+                        bleeding off onto the side of the bag. The secondary logo mark was also
+                        used as an accent on the business card and stationery.
                 </p>
 
                 <div className={style.portfolioItem}>
@@ -109,7 +114,10 @@ export default class WineFest extends Component {
                 </Row>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Apparel:</span> ba ba ba ba.
+                    <span className={style.bold}>Apparel:</span> On the buttons, there are two color variations
+                        and four design variations. There is a button with the secondary mark, the primary mark,
+                        the secondary pattern, and the line art wine bottle drawing. On the shirts, the logo is seen
+                        on the front and on the tag and the pattern is featured on the right sleeve of the shirt.
                 </p>
 
                 <div className={style.portfolioItem}>
@@ -138,7 +146,10 @@ export default class WineFest extends Component {
                 </Row>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Apparel:</span> ba ba ba ba.
+                    <span className={style.bold}>Wine Glass:</span> This wine glass is branded with the Taste Wine Fest logo.
+                        The wine glass is meant to be used as a keep sake that will promote interest in the event, even when
+                        patrons leave. Wine glasses can be acquired by patrons by simply buying the glass, or they can purchase
+                        a glass of wine and the cost of the glass will be included.
                 </p>
 
                 <div className={style.portfolioItem}>
