@@ -4,6 +4,8 @@ import style from './AppropriationBook.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
+import spreadsHero from './images/spreads-hero.png';
+
 import moodBoard from './images/moodBoard.png';
 import thumbFront from './images/thumb-front.png';
 import thumbBack from './images/thumb-back.png';
@@ -56,8 +58,8 @@ export default class AppropriationBook extends Component {
                 </Row>
 
                 <div className={style.portfolioItem}>
-                    <img src={cover} alt="" />
-                    <h6 className={style.subtitle}>Above - Book Cover</h6>
+                    <img src={spreadsHero} alt="" />
+                    <h6 className={style.subtitle}>Above - Appropriation Book Spreads</h6>
                 </div>
 
                 <p className={style.description}>
@@ -97,6 +99,11 @@ export default class AppropriationBook extends Component {
                         to serif, before mixing the two in the climax at the end of the book.
 
                 </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={cover} alt="" />
+                    <h6 className={style.subtitle}>Above - Book Cover</h6>
+                </div>
 
                 <div className={style.portfolioItem}>
                     <img src={blocks} alt="" />
