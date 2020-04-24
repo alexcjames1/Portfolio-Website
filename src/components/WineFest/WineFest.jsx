@@ -4,6 +4,7 @@ import style from './WineFest.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
+import socialMedia from './images/social-media.png';
 import logo from './images/logo.png';
 import logoOptions from './images/logo-options.png';
 import styleTile from './images/style-tile.png';
@@ -60,6 +61,12 @@ export default class WineFest extends Component {
                         </ul>
                     </Col>
                 </Row>
+
+                <div className={style.portfolioItem}>
+                    <img src={socialMedia} alt="" />
+                    <h6 className={style.subtitle}>Above - Social Media</h6>
+                </div>
+
                 <div className={style.portfolioItem}>
                     <img src={logo} alt="" />
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>

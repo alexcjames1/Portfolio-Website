@@ -60,6 +60,12 @@ export default class Raaka extends Component {
                         </ul>
                     </Col>
                 </Row>
+
+                <div className={style.portfolioItem}>
+                    <img src={both} alt="" />
+                    <h6 className={style.subtitle}>Above - Front and Back Packaging</h6>
+                </div>
+                
                 <div className={style.portfolioItem}>
                     <img src={logo} alt="" />
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>
@@ -106,11 +112,6 @@ export default class Raaka extends Component {
                 </div>
 
                 <div className={style.portfolioItem}>
-                    <img src={both} alt="" />
-                    <h6 className={style.subtitle}>Above - Front and Back Packaging</h6>
-                </div>
-
-                <div className={style.portfolioItem}>
                     <img src={foil} alt="" />
                     <h6 className={style.subtitle}>Above - Internal Packaging</h6>
                 </div>
@@ -119,7 +120,7 @@ export default class Raaka extends Component {
                     <span className={style.bold}>Stationery:</span> To create the Raaka stationery system, I thought it was important
                     to incorporate all of the different chocolate bar color schemes. Each employee has a different color for their business card based
                     on which chocolate bar is their favorite. The pattern is used as a brand identifier on the back of the business card and letterhead, with
-                    the primary logo mark simply being used on the front of the business card and letterhead with the other important company information. 
+                    the primary logo mark simply being used on the front of the business card and letterhead with the other important company information.
                 </p>
 
                 <div className={style.portfolioItem}>

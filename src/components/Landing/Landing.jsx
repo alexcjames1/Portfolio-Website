@@ -34,9 +34,9 @@ export default class Landing extends Component {
                 </Row>
                 <Row className={style.container}>
                     <Col className={style.example} xs="12" sm="6">
-                        <Link to={"/CrimsonValley"}>
-                            <img src={crimsonValley} alt="#" className={style.image}/>
-                        </Link>
+                            <Link to={"/WineFest"}>
+                                <img src={wine} alt="#" className={style.image}/>
+                            </Link>
                     </Col>
                     <Col className={style.example} xs="12" sm="6">
                             <Link to={"/raaka"}>
@@ -58,9 +58,9 @@ export default class Landing extends Component {
                 </Row>
                 <Row className={style.container}>
                     <Col className={style.example} xs="12" sm="6">
-                            <Link to={"/WineFest"}>
-                                <img src={wine} alt="#" className={style.image}/>
-                            </Link>
+                        <Link to={"/CrimsonValley"}>
+                            <img src={crimsonValley} alt="#" className={style.image}/>
+                        </Link>
                     </Col>
                     <Col className={style.contactInfo}xs="12" sm="6">
                         <a className={style.contact}href="emailto:alexcjames1@gmail.com">

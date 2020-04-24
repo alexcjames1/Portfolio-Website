@@ -41,6 +41,9 @@ export default class Contact extends Component {
                         <h5 className={style.skills}>Skills</h5>
                         <ul>
                             <li className={style.listItem}>
+                                XD
+                            </li>
+                            <li className={style.listItem}>
                                 Illustrator
                             </li>
                             <li className={style.listItem}>
@@ -50,10 +53,10 @@ export default class Contact extends Component {
                                 Photoshop
                             </li>
                             <li className={style.listItem}>
-                                Time Management
+                                Communication
                             </li>
                             <li className={style.listItem}>
-                                React.js and SASS
+                                Time Management
                             </li>
                             <li className={style.listItem}>
                                 React.js and SASS
@@ -63,9 +66,6 @@ export default class Contact extends Component {
                             </li>
                             <li className={style.listItem}>
                                 Mailchimp
-                            </li>
-                            <li className={style.listItem}>
-                                Wordpress
                             </li>
                             <li className={style.listItem}>
                                 Microsoft Office

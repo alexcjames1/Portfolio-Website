@@ -4,6 +4,7 @@ import style from './FdaLaw.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
+import stationery from './images/stationery.png';
 import logo from './images/logo.png';
 import styleTile from './images/style-tile.png';
 import sketches from './images/sketches.jpg';
@@ -58,6 +59,12 @@ export default class FdaLaw extends Component {
                         </ul>
                     </Col>
                 </Row>
+
+                <div className={style.portfolioItem}>
+                    <img src={stationery} alt="" />
+                    <h6 className={style.subtitle}>Above - Stationery</h6>
+                </div>
+
                 <div className={style.portfolioItem}>
                     <img src={logo} alt="" />
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>

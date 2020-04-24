@@ -4,6 +4,7 @@ import style from './Method.module.scss';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
+import methodHero from './images/method-hero.png';
 import methodLogo from './images/method-logo.png';
 import conceptBoard from './images/concept-board.png';
 import primaryConcepts from './images/primaryConcepts.png';
@@ -63,10 +64,17 @@ export default class Method extends Component {
                         </ul>
                     </Col>
                 </Row>
+
+                <div className={style.portfolioItem}>
+                    <img src={methodHero} alt="" />
+                    <h6 className={style.subtitle}>Above - Method Volcanic Ash Face Cream</h6>
+                </div>
+
                 <div className={style.portfolioItem}>
                     <img src={methodLogo} alt="" />
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>
                 </div>
+
                 <p className={style.description}>
                     <span className={style.bold}>Brand Background:</span> The Method&trade;  Volcanic Ash Cleanser product line features seven products to beautify all parts of the body. Volcanic ash is infused into this detoxifying body wash,
                     blended with bergamot oil and white ginger extract. This helps restore and hydrate for smoother, more beautiful-looking skin. For oily skin, dry skin, combination skin,

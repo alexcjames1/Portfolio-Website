@@ -71,6 +71,12 @@ export default class CrimsonValley extends Component {
                         </ul>
                     </Col>
                 </Row>
+
+                <div className={style.portfolioItem}>
+                    <img src={storeFront} alt="" />
+                    <h6 className={style.subtitle}>Above - Storefront</h6>
+                </div>
+
                 <div className={style.portfolioItem}>
                     <img src={logo} alt="" />
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>
@@ -219,19 +225,16 @@ export default class CrimsonValley extends Component {
                 </div>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Exterior Signage:</span> For Crimson Valley exterior signage, I created a design for
-                        their storefront, a poster advertisement, and a billboard advertisement. On the storefront, the awning contains the pattern
-                        seen on the other collateral items. The door shows the pictorial logo, as well as the store hours. I then put an example of
-                        their work and their values to the right of the door as wa way to draw in potential customers. On the advertisements, they
-                        have a cohesive design have a cohesive design because the pattern is used in the background and the image of their work
-                        is contained within a shield.
-
+                    <span className={style.bold}>Exterior Signage:</span> For
+                        Crimson Valley exterior signage, I created a design for
+                        a poster advertisement and a billboard advertisement. On
+                        the advertisements, they have a cohesive design because
+                        the pattern is used in the background and the image of
+                        their work is contained within a shield and their
+                        website and phone number are shown in a gray band at the
+                        bottom of the poster and billboard.
                 </p>
 
-                <div className={style.portfolioItem}>
-                    <img src={storeFront} alt="" />
-                    <h6 className={style.subtitle}>Above - Storefront</h6>
-                </div>
 
                 <Row>
                     <Col xs="12" sm="6">
