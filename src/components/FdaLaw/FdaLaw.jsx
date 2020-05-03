@@ -10,6 +10,13 @@ import styleTile from './images/style-tile.png';
 import sketches from './images/sketches.jpg';
 import values from './images/values.png';
 import logoConcepts from './images/logo-concepts.png';
+import website from './images/website.png';
+import storyboard from './images/storyboard.png';
+import wireframe from './images/wireframe.png';
+import icons from './images/icons.png';
+import iconsUse from './images/icon-use.png';
+import home from './images/homepage.png';
+import services from './images/services.png';
 
 export default class FdaLaw extends Component {
 
@@ -61,8 +68,8 @@ export default class FdaLaw extends Component {
                 </Row>
 
                 <div className={style.portfolioItem}>
-                    <img src={stationery} alt="" />
-                    <h6 className={style.subtitle}>Above - Stationery</h6>
+                    <img src={website} alt="" />
+                    <h6 className={style.subtitle}>Above - Website</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
@@ -110,6 +117,73 @@ export default class FdaLaw extends Component {
                 <div className={style.portfolioItem}>
                     <img src={logoConcepts} alt="" />
                     <h6 className={style.subtitle}>Above - Alternate Logo Concepts</h6>
+                </div>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Stationery:</span> Ferrentino, Donis & Associates, LLC are top attorneys dedicated
+                        to helping you with real estate law, personal injury, traffic or DUI defense, family law, and more. They work hard
+                        to provide smart, sensible legal solutions, tailored to your individual case, and are driven to produce the best
+                        results. They pride themselves in providing all clients with cost effective high quality legal representation while
+                        forever maintaining a mindful eye for all detail - big or small.
+
+                </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={stationery} alt="" />
+                    <h6 className={style.subtitle}>Above - Stationery</h6>
+                </div>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Website:</span> Ferrentino, Donis & Associates, LLC are top attorneys dedicated
+                        to helping you with real estate law, personal injury, traffic or DUI defense, family law, and more. They work hard
+                        to provide smart, sensible legal solutions, tailored to your individual case, and are driven to produce the best
+                        results. They pride themselves in providing all clients with cost effective high quality legal representation while
+                        forever maintaining a mindful eye for all detail - big or small.
+
+                </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={icons} alt="" />
+                    <h6 className={style.subtitle}>Above - Icons</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={iconsUse} alt="" />
+                    <h6 className={style.subtitle}>Above - Icons In Use</h6>
+                </div>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Website:</span> Ferrentino, Donis & Associates, LLC are top attorneys dedicated
+                        to helping you with real estate law, personal injury, traffic or DUI defense, family law, and more. They work hard
+                        to provide smart, sensible legal solutions, tailored to your individual case, and are driven to produce the best
+                        results. They pride themselves in providing all clients with cost effective high quality legal representation while
+                        forever maintaining a mindful eye for all detail - big or small.
+
+                </p>
+
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={storyboard} alt="" />
+                            <h6 className={style.subtitle}>Above - Storyboard</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={wireframe} alt="" />
+                            <h6 className={style.subtitle}>Above - Wireframe</h6>
+                        </div>
+                    </Col>
+                </Row>
+
+                <div className={style.portfolioItem}>
+                    <img src={home} alt="" />
+                    <h6 className={style.subtitle}>Above - Website Home Page</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={services} alt="" />
+                    <h6 className={style.subtitle}>Above - Website Services Page</h6>
                 </div>
 
             </Section>
