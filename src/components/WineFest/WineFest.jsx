@@ -16,6 +16,8 @@ import shirtGreen from './images/shirt-green.png';
 import shirtGrey from './images/shirt-grey.png';
 import shirtWhite from './images/shirt-white.png';
 import wineGlass from './images/wine-glass.png';
+import home from './images/home.png';
+import attractions from './images/attractions.png';
 
 export default class WineFest extends Component {
 
@@ -72,12 +74,14 @@ export default class WineFest extends Component {
                     <h6 className={style.subtitle}>Above - Primary Logo Mark</h6>
                 </div>
                 <p className={style.description}>
-                    <span className={style.bold}>Brand Background:</span> The Method&trade;  Volcanic Ash Cleanser product line features seven products to beautify all parts of the body. Volcanic ash is infused into this detoxifying body wash,
-                    blended with bergamot oil and white ginger extract. This helps restore and hydrate for smoother, more beautiful-looking skin. For oily skin, dry skin, combination skin,
-                    normal skin.These products are naturally derived, with no artificial ingredients, making it safe for users with allergies.
-                    <br/>
-                    Turn your shower into the kind of escape you need. whether you want pure peace, an energy boost, a deep detox or some simple nourishment, each naturally derived
-                    formula features nutrient-rich ingredients and a scent that’s sure to set the mood. no parabens. no phthalates. no bad vibes.
+                    <span className={style.bold}>Brand Background:</span> The mission of the Taste Wine Fest
+                        is to be the middleman between wineries and  the consumer, allowing Chicago wine
+                        drinkers to be exposed to the many different tastes and talents local wineries have
+                        to offer. The event is meant to be fun, with people casually going around to the
+                        different booths for wine samples. The physical environment for this event varies as
+                        the event can be held anywhere in the Chicago area. Currently, they plan to hold the
+                        Spring event at the Lincoln Park Zoo. This event appeals to a younger audience, ages
+                        21 to 35. These people would likely be middle class to upper middle class.
 
                 </p>
 
@@ -89,6 +93,23 @@ export default class WineFest extends Component {
                 <div className={style.portfolioItem}>
                     <img src={logoOptions} alt="" />
                     <h6 className={style.subtitle}>Above - Other Logo Concepts</h6>
+                </div>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Website:</span> This website was created to give information to those interested
+                        in attending Taste Wine Fest. Their website has information about food, entertainment, the location, and
+                        ticket purchases. The primary purpose of the website is to convince the audience to buy tickets for the
+                        Taste Wine Fest spring event.
+                </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={home} alt="" />
+                    <h6 className={style.subtitle}>Above - Stationery</h6>
+                </div>
+
+                <div className={style.portfolioItem}>
+                    <img src={attractions} alt="" />
+                    <h6 className={style.subtitle}>Above - Stationery</h6>
                 </div>
 
                 <p className={style.description}>
