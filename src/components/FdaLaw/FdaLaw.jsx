@@ -120,11 +120,12 @@ export default class FdaLaw extends Component {
                 </div>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Stationery:</span> Ferrentino, Donis & Associates, LLC are top attorneys dedicated
-                        to helping you with real estate law, personal injury, traffic or DUI defense, family law, and more. They work hard
-                        to provide smart, sensible legal solutions, tailored to your individual case, and are driven to produce the best
-                        results. They pride themselves in providing all clients with cost effective high quality legal representation while
-                        forever maintaining a mindful eye for all detail - big or small.
+                    <span className={style.bold}>Stationery:</span> OUr stationery is meant to be playful, but professional, making Ferrentino, Donis & Associates
+                        a law firm that stands out against competitors. On the letterhead, their is a light pattern in the background. The contact information is
+                        in a light gray, which is still easily readable for their older audience, but allows for the body of the message to be the most prominent design
+                        element. The folder is this law firm's signature black color and features the logo mark on the bottom corner. The envelope was also designed with
+                        the client's budget in mind and we chose a more simplistic design in order for the envelope to be printed after already being converted. The
+                        business card features the pattern on the back of the card and their black behind the contact information.
 
                 </p>
 
@@ -134,11 +135,9 @@ export default class FdaLaw extends Component {
                 </div>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Website:</span> Ferrentino, Donis & Associates, LLC are top attorneys dedicated
-                        to helping you with real estate law, personal injury, traffic or DUI defense, family law, and more. They work hard
-                        to provide smart, sensible legal solutions, tailored to your individual case, and are driven to produce the best
-                        results. They pride themselves in providing all clients with cost effective high quality legal representation while
-                        forever maintaining a mindful eye for all detail - big or small.
+                    <span className={style.bold}>Icons:</span> These icons are mildly rounded to touch on the brand's friendly and approachable values. They also have small
+                        openings at the bottom to symbolize the firm's openness to new tactics and approaches when working with clients. These icons are meant to be used as
+                        design elements on the Ferrentino, Donis & Associates website.
 
                 </p>
 
@@ -153,12 +152,10 @@ export default class FdaLaw extends Component {
                 </div>
 
                 <p className={style.description}>
-                    <span className={style.bold}>Website:</span> Ferrentino, Donis & Associates, LLC are top attorneys dedicated
-                        to helping you with real estate law, personal injury, traffic or DUI defense, family law, and more. They work hard
-                        to provide smart, sensible legal solutions, tailored to your individual case, and are driven to produce the best
-                        results. They pride themselves in providing all clients with cost effective high quality legal representation while
-                        forever maintaining a mindful eye for all detail - big or small.
-
+                    <span className={style.bold}>Website:</span> We began the website creation process by storyboarding the audience's navigation process
+                        through the website. We then created wireframes with the primary goal in mind being to convince the user to schedule a consultation.
+                        After wireframing, we created prototypes in Adobe XD and completed user testing. This testing allowed us to make minor changes before
+                        showing the final design to the client. The client then approved the design and we created this website using Wordpress.
                 </p>
 
                 <Row>
