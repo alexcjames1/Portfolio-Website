@@ -104,12 +104,16 @@ export default class WineFest extends Component {
 
                 <div className={style.portfolioItem}>
                     <img src={home} alt="" />
-                    <h6 className={style.subtitle}>Above - Stationery</h6>
+                    <h6 className={style.subtitle}>Above - Home Page</h6>
                 </div>
 
                 <div className={style.portfolioItem}>
                     <img src={attractions} alt="" />
-                    <h6 className={style.subtitle}>Above - Stationery</h6>
+                    <h6 className={style.subtitle}>Above - Attractions Section</h6>
+                </div>
+
+                <div className={style.button}>
+                    <a className={style.buttonLink} href="http://alexcjames.com/taste/" target="_blank">See Full Website</a>
                 </div>
 
                 <p className={style.description}>

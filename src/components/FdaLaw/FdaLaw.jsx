@@ -34,7 +34,8 @@ export default class FdaLaw extends Component {
                                 their brand to attract more clients as their brand at the time was dated and common, not allowing them to stand out against other firms.
                         </p>
                         <p className={style.solution}>
-                            <span className={style.bold}>Solution:</span> We created a logo for the firm, as well as a website, stationery system, a stamp, and a brand standards manual,
+                            <span className={style.bold}>Solution:</span> This was a collaborative project and each member of the team equally contributed to all parts
+                                of the project. We created a logo for the firm, as well as a website, stationery system, a stamp, and a brand standards manual,
                                 meant to guide the firm in future use of our designs.
 
                                 <br/>

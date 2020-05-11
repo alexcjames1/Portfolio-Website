@@ -23,7 +23,7 @@ export default class Snowminer extends Component {
             <Section className={style.section} kind="dark">
                 <Row className={style.projectTitle}>
                     <Col className={style.content}>
-                        <h2 className={style.header}>Snowminer Web Design</h2>
+                        <h2 className={style.header}>Snowminer Web Development</h2>
                         <h6>Intern Project</h6>
                         <p className={style.challenge}>
                             <span className={style.bold}>Challenge:</span> To create a user interface that would allow users,

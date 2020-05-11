@@ -11,7 +11,7 @@ import front from './images/front.png';
 import snowminer from './images/snowminer-laptop.png';
 import crimsonValley from './images/crimson-valley.png';
 import ferrentino from './images/ferrentino.png';
-import wine from './images/wine.png';
+import wine from './images/wine-fest.png';
 
 export default class Landing extends Component {
 
