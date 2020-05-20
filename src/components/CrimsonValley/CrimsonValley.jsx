@@ -8,6 +8,7 @@ import logo from './images/logo.png';
 import conceptBoard from './images/concept-board.png';
 import sketches from './images/sketches.png';
 import logoConcepts from './images/logo-concepts.png';
+import brandStandards from './images/brand-standards.png';
 import stationery from './images/stationery.png';
 import invoice from './images/invoice.png';
 import folder from './images/folder.png';
@@ -115,6 +116,22 @@ export default class CrimsonValley extends Component {
                     </Col>
 
                 </Row>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Brand Standards:</span> This is the brand standards for Crimson Valley Landscaping. This manual
+                        details the style requirements for typography, color, as well as their pattern and use of photography. This brand manual is meant
+                        to guide future designs and create a cohesive identity for the brand.
+
+                </p>
+
+                <div className={style.portfolioItem}>
+                    <img src={brandStandards} alt="" />
+                    <h6 className={style.subtitle}>Above - Brand Standards Manual</h6>
+                </div>
+
+                <div className={style.button}>
+                    <a className={style.buttonLink} href="https://issuu.com/home/published/crimson-valley-brand" target="_blank">See Full Style Guide</a>
+                </div>
 
                 <p className={style.description}>
                     <span className={style.bold}>Stationery:</span> The stationery system and additional print collateral are

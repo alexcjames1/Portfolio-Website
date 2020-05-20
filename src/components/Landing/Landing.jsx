@@ -5,7 +5,7 @@ import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 import {Link} from 'react-router-dom';
 
-import cover from './images/cover.png';
+import method from './images/method.png';
 import paint from './images/paint.png';
 import front from './images/front.png';
 import snowminer from './images/snowminer-laptop.png';
@@ -23,7 +23,7 @@ export default class Landing extends Component {
                 <Row className={style.container}>
                     <Col className={style.example} xs="12" sm="6">
                             <Link to={"/method"}>
-                                <img src={cover} alt="#" className={style.image}/>
+                                <img src={method} alt="#" className={style.image}/>
                             </Link>
                     </Col>
                     <Col className={style.example} xs="12" sm="6">

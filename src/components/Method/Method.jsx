@@ -36,8 +36,8 @@ export default class Method extends Component {
                         </p>
                         <p className={style.rationale}>
                             <span className={style.bold}>Solution:</span> The Method Volcanic Ash line is a seven product package with a product brochure included.
-                                To create this line, I used bright imagery of magma for the secondary packaging and an eye-catching orange color for the primary packaging. This created a cohesive throughout the product line
-                                the primary packaging. This created a cohesive thoughout the product line.
+                                To create this line, I used bright imagery of magma for the secondary packaging and an eye-catching orange color for the primary
+                                packaging. This created a cohesive look throughout the product line.
                         </p>
                     </Col>
                     <Col xs="12" sm="6">
@@ -78,7 +78,7 @@ export default class Method extends Component {
                 <p className={style.description}>
                     <span className={style.bold}>Brand Background:</span> The Method&trade;  Volcanic Ash Cleanser product line features seven products to beautify all parts of the body. Volcanic ash is infused into this detoxifying body wash,
                     blended with bergamot oil and white ginger extract. This helps restore and hydrate for smoother, more beautiful-looking skin. For oily skin, dry skin, combination skin,
-                    normal skin.These products are naturally derived, with no artificial ingredients, making it safe for users with allergies.
+                    normal skin. These products are naturally derived, with no artificial ingredients, making it safe for users with allergies.
                     <br/>
                     Turn your shower into the kind of escape you need. whether you want pure peace, an energy boost, a deep detox or some simple nourishment, each naturally derived
                     formula features nutrient-rich ingredients and a scent that’s sure to set the mood. no parabens. no phthalates. no bad vibes.

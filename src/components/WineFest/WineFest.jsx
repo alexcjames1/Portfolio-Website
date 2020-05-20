@@ -7,6 +7,10 @@ import { Section } from '../../components';
 import socialMedia from './images/social-media.png';
 import logo from './images/logo.png';
 import logoOptions from './images/logo-options.png';
+import cover from './images/cover.png';
+import internal from './images/internal.png';
+import internalCover from './images/internal-cover.png';
+import internalTop from './images/internal-top.png';
 import styleTile from './images/style-tile.png';
 import stationery from './images/stationery.png';
 import bagFront from './images/bag-front.png';
@@ -93,6 +97,46 @@ export default class WineFest extends Component {
                 <div className={style.portfolioItem}>
                     <img src={logoOptions} alt="" />
                     <h6 className={style.subtitle}>Above - Other Logo Concepts</h6>
+                </div>
+
+                <p className={style.description}>
+                    <span className={style.bold}>Brand Standards:</span> The Taste Wine Fest brand standards is meant to act as a guide
+                        for future design projects because it offers rules on typography, color, and imagery. These guidelines will help
+                        create a cohesive brand.
+                </p>
+
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={internalCover} alt="" />
+                            <h6 className={style.subtitle}>Above - Typography on Color Page</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={internalTop} alt="" />
+                            <h6 className={style.subtitle}>Above - Table of Contents</h6>
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={internal} alt="" />
+                            <h6 className={style.subtitle}>Above - Mission &amp; Values</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="6">
+                        <div className={style.portfolioItem}>
+                            <img src={cover} alt="" />
+                            <h6 className={style.subtitle}>Above - Book Cover</h6>
+                        </div>
+                    </Col>
+                </Row>
+
+                <div className={style.button}>
+                    <a className={style.buttonLink} href="https://issuu.com/home/published/taste-brand-manual" target="_blank">See Full Style Guide</a>
                 </div>
 
                 <p className={style.description}>

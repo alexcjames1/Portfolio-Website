@@ -8,6 +8,10 @@ import stationery from './images/stationery.png';
 import logo from './images/logo.png';
 import styleTile from './images/style-tile.png';
 import sketches from './images/sketches.jpg';
+import instagram from './images/instagram.png';
+import linkedin from './images/linkedin.png';
+import facebook from './images/facebook.png';
+import facebookAds from './images/facebook-ads.png';
 import values from './images/values.png';
 import logoConcepts from './images/logo-concepts.png';
 import website from './images/website.png';
@@ -136,6 +140,42 @@ export default class FdaLaw extends Component {
                 </div>
 
                 <p className={style.description}>
+                    <span className={style.bold}>Social Media:</span> Ferrentino, Donis &amp; Associates has a social media presence on
+                        Facebook, Linkedin, and Instagram. To create a cohesive identity, we chose to use the secondary mark as the profile
+                        picture and, when applicable, add the pattern as the cover picture of the profile page. For the Facebook advertisements,
+                        we made three versions. The first is a testimonial from a previous client. The second is a more general advertisment prompting
+                        those who need legal assistance. The third adds more personality to the brand and lets users know the background of the Ferrentino,
+                        Donis &amp; Associates attorneys.
+
+                </p>
+
+                <Row>
+                    <Col xs="12" sm="4">
+                        <div className={style.portfolioItem}>
+                            <img src={facebook} alt="" />
+                            <h6 className={style.subtitle}>Above - Facebook</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="4">
+                        <div className={style.portfolioItem}>
+                            <img src={instagram} alt="" />
+                            <h6 className={style.subtitle}>Above - Instagram</h6>
+                        </div>
+                    </Col>
+                    <Col xs="12" sm="4">
+                        <div className={style.portfolioItem}>
+                            <img src={linkedin} alt="" />
+                            <h6 className={style.subtitle}>Above - Linkedin</h6>
+                        </div>
+                    </Col>
+                </Row>
+
+                <div className={style.portfolioItem}>
+                    <img src={facebookAds} alt="" />
+                    <h6 className={style.subtitle}>Above - Icons</h6>
+                </div>
+
+                <p className={style.description}>
                     <span className={style.bold}>Icons:</span> These icons are mildly rounded to touch on the brand's friendly and approachable values. They also have small
                         openings at the bottom to symbolize the firm's openness to new tactics and approaches when working with clients. These icons are meant to be used as
                         design elements on the Ferrentino, Donis & Associates website.
@@ -182,6 +222,10 @@ export default class FdaLaw extends Component {
                 <div className={style.portfolioItem}>
                     <img src={services} alt="" />
                     <h6 className={style.subtitle}>Above - Website Services Page</h6>
+                </div>
+
+                <div className={style.button}>
+                    <a className={style.buttonLink} href="#" target="_blank">See Full Website</a>
                 </div>
 
             </Section>
