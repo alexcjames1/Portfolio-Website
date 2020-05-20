@@ -33,7 +33,7 @@ export default class Contact extends Component {
                                 <a className={style.buttonLink} href="mailto:alexcjames1@gmail.com" target="_blank">Email</a>
                             </div>
                             <div className={classy(style.resume, style.button)}>
-                                <a className={style.buttonLink} href="https://drive.google.com/open?id=1hWR6IPQZD7Rcl1oYfGDHJ5a2eNIF-W2V" target="_blank">Resume</a>
+                                <a className={style.buttonLink} href="https://drive.google.com/open?id=1FGqz1ZYwevmjTHi80Afc-z3inKPf5Srg" target="_blank">Resume</a>
                             </div>
                         </div>
                     </Col>
@@ -87,10 +87,10 @@ export default class Contact extends Component {
                 <Row>
                     <Col xs="12" sm="6">
                         <div className={style.jobs}>
-                        <p className={style.jobItem}><span className={style.date}>Jan 20 - Present</span><span> Ferrentino, Donnis, &amp; Associates</span><span className={style.position}> Graphic/Web Designer</span></p>
+                        <p className={style.jobItem}><span className={style.date}>Jan 20 - May 20</span><span> Ferrentino, Donnis, &amp; Associates</span><span className={style.position}> Graphic/Web Designer</span></p>
                         <p className={style.jobItem}><span className={style.date}>Oct 19</span><span> Dearborn Denim (Columbia)</span><span className={style.position}> Freelance Graphic/Web Designer</span></p>
                         <p className={style.jobItem}><span className={style.date}>Sep 19 - Present</span><span> Communication Department (Columbia)</span><span className={style.position}> Graphic Designer</span></p>
-                        <p className={style.jobItem}><span className={style.date}>Sep 19 - Dec 19</span><span> Fashion Department (Columbia)</span><span className={style.position}> Graphic Designer</span></p>
+                        <p className={style.jobItem}><span className={style.date}>Sep 19 - May 20</span><span> Fashion Department (Columbia)</span><span className={style.position}> Graphic Designer</span></p>
                         <p className={style.jobItem}><span className={style.date}>Jun 19</span><span> Advantage Originals</span><span className={style.position}> Freelance Graphic Designer</span></p>
                         <p className={style.jobItem}><span className={style.date}>May 19 - August 19</span><span> Audentio</span><span className={style.position}> Frontend Development Intern</span></p>
                         </div>
