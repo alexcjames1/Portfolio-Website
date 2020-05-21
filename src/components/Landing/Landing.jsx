@@ -63,7 +63,7 @@ export default class Landing extends Component {
                         </Link>
                     </Col>
                     <Col className={style.contactInfo}xs="12" sm="6">
-                        <a className={style.contact}href="emailto:alexcjames1@gmail.com">
+                        <a className={style.contact}href="mailto:alexcjames1@gmail.com">
                             <div className={style.contactContainer}>
                                         <h2 className={style.title}>Reach Out.</h2>
                             </div>

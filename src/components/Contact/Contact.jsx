@@ -22,8 +22,8 @@ export default class Contact extends Component {
                     <Col xs="12" sm="4">
                         <h2 className={style.heading}>Chicago, IL &amp; Milwaukee, WI</h2>
                         <p className={style.description}>
-                             Hi, my name is Alex James and I'm a Graphic Designer and Developer living in Milwaukee, Wisconsin and attending Columbia College
-                             Chicago. I will graudate with a degree in Graphic Design with a Web Concentration in May 2020. I have experience designing for
+                             Hi, my name is Alex James and I'm a Graphic Designer and Developer living in Milwaukee, Wisconsin and recent graduate of Columbia College
+                             Chicago. At Columbia, I earned a Bachalor of Arts in Graphic Design with a Web Concentration in May 2020. I have experience designing for
                              Astute Web Group, Audentio, the Columbia College Chicago Communication and Fashion Design Departments, and various freelance
                              clients. I'm passionate about my work and am determined to exceed the goals of any client I work with. Reach out if you want to
                              work together!
