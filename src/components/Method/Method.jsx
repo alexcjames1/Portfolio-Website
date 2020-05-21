@@ -13,7 +13,6 @@ import fullLine from './images/full-line.png';
 import bathSalt from './images/bath-salt.png';
 import primary from './images/primary.png';
 import packagingBack from './images/packagingBack.png';
-import dieline from './images/dieline.png';
 
 import cover from './images/cover.png';
 import spreadOne from './images/spreadOne.png';
